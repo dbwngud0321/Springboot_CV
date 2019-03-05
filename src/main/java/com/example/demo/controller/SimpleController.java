@@ -28,7 +28,8 @@ public class SimpleController {
 	@GetMapping("/account")
 	public String account(Model model) throws Exception {
 		List<Account> account = accountService.getAccountList();
-		model.addAttribute("account", account);
+		System.out.println(account);
+		model.addAttribute("list", account);
 		return "home";
 	}
 

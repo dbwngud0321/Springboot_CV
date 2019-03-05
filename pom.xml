@@ -54,11 +54,13 @@
 		    <artifactId>spring-boot-starter-security</artifactId> 
 		</dependency>
 		
+		<!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
 		<dependency>
-		  <groupId>postgresql</groupId>
-		  <artifactId>postgresql</artifactId>
-		  <version>9.1-901.jdbc4</version>
+		    <groupId>org.postgresql</groupId>
+		    <artifactId>postgresql</artifactId>
+		    <version>42.2.5</version>
 		</dependency>
+
 		
 		<dependency>
 			<groupId>org.mybatis</groupId>
