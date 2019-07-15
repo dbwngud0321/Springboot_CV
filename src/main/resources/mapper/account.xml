@@ -8,8 +8,7 @@
 		id,
 		description,
 		registtime
-		FROM account
-		order by idx
+		FROM account		
 	</select>
 	
 </mapper>

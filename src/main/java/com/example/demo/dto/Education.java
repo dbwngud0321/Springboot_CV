@@ -1,14 +1,14 @@
-package com.example.demo.model;
+package com.example.demo.dto;
 
 import lombok.Data;
 
 @Data
-public class Project {
+public class Education {
 	private int idx;
 	
 	private String name;
 	
-	private String company;
+	private String institutions;
 	
 	private String startdate;
 	

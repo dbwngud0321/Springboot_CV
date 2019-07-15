@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.example.demo.dao.AccountDao;
-import com.example.demo.model.Account;
+import com.example.demo.dto.Account;
 
 import lombok.extern.log4j.Log4j2;
 
